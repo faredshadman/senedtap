@@ -1,0 +1,185 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "İcarə müqavilələri",
+      "filtername": "icare",
+      "body": "Pretium, adipiscing porttitor pretium sit et lectus nascetur amet velit. Eget a nunc, mauris a neque diam gravida augue. "
+    },
+    {
+      "id": 2,
+      "title": "Xidmət müqavilələri",
+      "filtername": "xidmet",
+      "body": "Pretium, adipiscing porttitor pretium sit et lectus nascetur amet velit. Eget a nunc, mauris a neque diam gravida augue. "
+    },
+    {
+      "id": 3,
+      "title": "CV şablonları",
+      "filtername": "cv",
+      "body": "Pretium, adipiscing porttitor pretium sit et lectus nascetur amet velit. Eget a nunc, mauris a neque diam gravida augue. "
+    }
+  ],
+  "statistics": [
+    {
+      "id": 1,
+      "title": "Müştərilər",
+      "count": 5486
+    },
+    {
+      "id": 2,
+      "title": "Sənədlər",
+      "count": 6562
+    },
+    {
+      "id": 3,
+      "title": "Yüklənən sənədlər",
+      "count": 100
+    },
+    {
+      "id": 4,
+      "title": "Satılan sənədlər",
+      "count": 476
+    }
+  ],
+  "docs": [
+    {
+      "id": 1,
+      "title": "Similique sunt consequatur eveniet in sunt consequa...",
+      "body": "Lorem arcu euismod tristique nec. A interdu tortor tristique id rhoncus, massa sed vel. Lacinia sagittis aliquet sagittis sed id.",
+      "price": 33,
+      "category": "sponsor",
+      "lang": "en",
+      "fav": false
+    },
+    {
+      "id": 2,
+      "title": "Similique sunt consequatur eveniet in sunt consequa...",
+      "body": "Lorem arcu euismod tristique nec. A interdu tortor tristique id rhoncus, massa sed vel. Lacinia sagittis aliquet sagittis sed id.",
+      "price": 33,
+      "category": "sponsor",
+      "lang": "aze",
+      "fav": false
+    },
+    {
+      "id": 3,
+      "title": "Similique sunt consequatur eveniet in sunt consequa...",
+      "body": "Lorem arcu euismod tristique nec. A interdu tortor tristique id rhoncus, massa sed vel. Lacinia sagittis aliquet sagittis sed id.",
+      "price": 33,
+      "category": "sponsor",
+      "lang": "aze",
+      "fav": false
+    },
+    {
+      "id": 4,
+      "title": "Similique sunt consequatur eveniet in sunt consequa...",
+      "body": "Lorem arcu euismod tristique nec. A interdu tortor tristique id rhoncus, massa sed vel. Lacinia sagittis aliquet sagittis sed id.",
+      "price": 33,
+      "category": "xidmet",
+      "lang": "rus",
+      "fav": false
+    },
+    {
+      "id": 5,
+      "title": "Similique sunt consequatur eveniet in sunt consequa...",
+      "body": "Lorem arcu euismod tristique nec. A interdu tortor tristique id rhoncus, massa sed vel. Lacinia sagittis aliquet sagittis sed id.",
+      "price": 33,
+      "category": "sponsor",
+      "lang": "rus",
+      "fav": false
+    },
+    {
+      "id": 6,
+      "title": "Similique sunt consequatur eveniet in sunt consequa...",
+      "body": "Lorem arcu euismod tristique nec. A interdu tortor tristique id rhoncus, massa sed vel. Lacinia sagittis aliquet sagittis sed id.",
+      "price": 35,
+      "category": "xidmet",
+      "lang": "aze",
+      "fav": false
+    },
+    {
+      "id": 7,
+      "title": "Similique sunt consequatur eveniet in sunt consequa...",
+      "body": "Lorem arcu euismod tristique nec. A interdu tortor tristique id rhoncus, massa sed vel. Lacinia sagittis aliquet sagittis sed id.",
+      "price": 112,
+      "discount": 0.5,
+      "category": "icare",
+      "lang": "turk",
+      "fav": false
+    },
+    {
+      "id": 8,
+      "title": "Similique sunt consequatur eveniet in sunt consequa...",
+      "body": "Lorem arcu euismod tristique nec. A interdu tortor tristique id rhoncus, massa sed vel. Lacinia sagittis aliquet sagittis sed id.",
+      "price": 150,
+      "discount": 0.4,
+      "category": "icare",
+      "lang": "en",
+      "fav": false
+    },
+    {
+      "id": 9,
+      "title": "Similique sunt consequatur eveniet in sunt consequa...",
+      "body": "Lorem arcu euismod tristique nec. A interdu tortor tristique id rhoncus, massa sed vel. Lacinia sagittis aliquet sagittis sed id.",
+      "price": "Free",
+      "category": "icare",
+      "lang": "aze",
+      "fav": false
+    },
+    {
+      "id": 10,
+      "title": "Similique sunt consequatur eveniet in sunt consequa...",
+      "body": "Lorem arcu euismod tristique nec. A interdu tortor tristique id rhoncus, massa sed vel. Lacinia sagittis aliquet sagittis sed id.",
+      "price": "Free",
+      "category": "icare",
+      "lang": "alman",
+      "fav": false
+    },
+    {
+      "id": 11,
+      "title": "Similique sunt consequatur eveniet in sunt consequa...",
+      "body": "Lorem arcu euismod tristique nec. A interdu tortor tristique id rhoncus, massa sed vel. Lacinia sagittis aliquet sagittis sed id.",
+      "price": 25,
+      "category": "kuryer",
+      "lang": "turk",
+      "fav": false
+    },
+    {
+      "id": 12,
+      "title": "Similique sunt consequatur eveniet in sunt consequa...",
+      "body": "Lorem arcu euismod tristique nec. A interdu tortor tristique id rhoncus, massa sed vel. Lacinia sagittis aliquet sagittis sed id.",
+      "price": "Free",
+      "category": "icare",
+      "lang": "alman",
+      "fav": false
+    },
+    {
+      "id": 13,
+      "title": "Similique sunt consequatur eveniet in sunt consequa...",
+      "body": "Lorem arcu euismod tristique nec. A interdu tortor tristique id rhoncus, massa sed vel. Lacinia sagittis aliquet sagittis sed id.",
+      "price": 120,
+      "discount": 0.5,
+      "category": "cv",
+      "lang": "turk",
+      "fav": false
+    },
+    {
+      "id": 14,
+      "title": "Similique sunt consequatur eveniet in sunt consequa...",
+      "body": "Lorem arcu euismod tristique nec. A interdu tortor tristique id rhoncus, massa sed vel. Lacinia sagittis aliquet sagittis sed id.",
+      "price": "Free",
+      "category": "cv",
+      "lang": "aze",
+      "fav": false
+    },
+    {
+      "id": 15,
+      "title": "Similique sunt consequatur eveniet in sunt consequa...",
+      "body": "Lorem arcu euismod tristique nec. A interdu tortor tristique id rhoncus, massa sed vel. Lacinia sagittis aliquet sagittis sed id.",
+      "price": 32,
+      "discount": 0.5,
+      "category": "cv",
+      "lang": "en",
+      "fav": false
+    }
+  ]
+}

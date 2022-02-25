@@ -1,0 +1,40 @@
+.wrapper {
+  width: 88%;
+  z-index: 10;
+  margin: 0 auto;
+}
+.container.transparent {
+  background: #fff;
+}
+.container {
+  background: #f0f4ff;
+  width: 100%;
+}
+.left_ellipse {
+  position: absolute;
+  top: 18rem;
+}
+.right_ellipse {
+  position: absolute;
+  bottom: 9rem;
+  right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .left_ellipse {
+    display: none;
+  }
+  .right_ellipse {
+    bottom: -200px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .left_ellipse {
+    display: none;
+  }
+  .right_ellipse {
+    bottom: -100px;
+    width: 100px;
+  }
+}

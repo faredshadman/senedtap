@@ -1,0 +1,124 @@
+.categories_container {
+  margin-top: 60px;
+}
+.categories_row {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin-bottom: 50px;
+}
+small {
+  display: flex;
+  align-self: start;
+}
+.line {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-right: 0.5rem;
+  color: #034efe;
+}
+.categories_row .categories_headline {
+  width: 15ch;
+  color: #001c5b;
+}
+.btn {
+  background: #ffffff;
+  border: 1px solid #034efe;
+  box-sizing: border-box;
+  border-radius: 14px;
+  padding: 12px 25px;
+  display: inline-flex;
+  align-items: center;
+}
+.btn .btn-arrow {
+  margin-left: 6px;
+  font-size: 1.2rem;
+  color: #034efe;
+  font-weight: bold;
+}
+.categories {
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.category {
+  text-align: center;
+  flex-basis: 30%;
+  padding: 10px 20px;
+  background-color: #f7f6f6;
+  border-radius: 14px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.category_heading {
+  margin-top: 16px;
+  color: #001c5b;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+}
+.category_body {
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 14px;
+  text-align: center;
+}
+.category_btn_wrap {
+  margin-top: 2rem;
+  margin-bottom: -1.75rem;
+  background: #6f7ea1;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+.category_btn_wrap:hover {
+  background-color: #001c5b;
+}
+.category_btn {
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+.category_btn_wrap:hover .category_btn {
+  transition: all 0.2s ease-in-out;
+  transform: rotate(-90deg);
+}
+.category_icon {
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+.btn.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .categories {
+    flex-direction: column;
+    flex-basis: 100%;
+  }
+  .category {
+    flex-basis: 100%;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .categories_row .btn.outline {
+    display: none;
+  }
+  .btn.btn.mobile {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .categories {
+    width: 100%;
+  }
+}

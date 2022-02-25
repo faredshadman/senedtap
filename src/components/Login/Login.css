@@ -1,0 +1,189 @@
+.login_row {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  background-color: transparent;
+  position: absolute;
+  left: 10%;
+  z-index: 1000;
+}
+.login_wrapper,
+.signup_wrapper {
+  display: flex;
+}
+.login_left,
+.signup_right {
+  width: 30%;
+  height: 100vh;
+  position: relative;
+  background-color: #f0f4ff;
+}
+.login_left img,
+.signup_right img {
+  position: absolute;
+  bottom: 0;
+}
+.signup_right img {
+  right: 0;
+}
+.login_right,
+.signup_left {
+  z-index: 11;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 100vh;
+}
+.login_form_wrapper,
+.signup_form_wrapper {
+  width: 400px;
+}
+.login_form_headline,
+.signup_form_headline {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.login_form_heading,
+.signup_form_heading {
+  margin-left: 2rem;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #001c5b;
+}
+.login_left_icon,
+.signup_left_icon {
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  color: #034efe;
+}
+.login_form_info,
+.signup_form_info {
+  text-align: center;
+  color: #6f7ea1;
+  font-size: 14px;
+  line-height: 15px;
+}
+.login_form .input_group,
+.signup_form .input_group {
+  margin-top: 2rem;
+  position: relative;
+}
+.login_form input,
+.signup_form input {
+  width: 100%;
+  border: 1px solid #034efe;
+  padding: 10px 20px;
+  outline: none;
+  border-radius: 1rem;
+}
+
+.form_icon {
+  color: #034efe;
+  font-size: 1.15rem;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* Translate up label in input field */
+.input_label {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.input_label_text {
+  padding: 3px;
+  background-color: #fff;
+  color: #818ca7;
+  border-radius: 1000px;
+}
+input:focus ~ label span,
+input:not(:placeholder-shown) ~ label span {
+  color: #001c5b;
+  font: normal 700 8px/12px Poppins;
+}
+.input_field:focus + .input_label,
+input:not(:placeholder-shown) + .input_label {
+  top: -2px;
+}
+
+/*  */
+.forgot_pass_wrapper {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: right;
+}
+.forgot_pass {
+  text-decoration: underline;
+  color: #6f7ea1;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+}
+.signup_wrapper .button_wrapper {
+  margin-top: 3rem;
+}
+.login_wrapper .btn-login,
+.signup_wrapper .btn-login {
+  width: 100%;
+}
+.button_wrapper {
+  margin-bottom: 3rem;
+}
+.form_signup {
+  text-align: center;
+  font-size: 14px;
+  line-height: 15px;
+}
+.signup_link {
+  margin-left: 0.5rem;
+}
+.signup_link a {
+  color: #034efe;
+  text-decoration: underline;
+}
+.btn-login.google {
+  font-size: 1.05rem;
+  margin-top: 2rem;
+  background: #f7f6f6 !important;
+  color: #001c5b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.google_icon {
+  margin-right: 0.5rem;
+  font-size: 1.25rem;
+}
+
+/* Sign Up */
+
+@media screen and (max-width: 920px) {
+  .login_left img,
+  .signup_right img {
+    display: none;
+  }
+  .login_left,
+  .signup_right {
+    display: none;
+  }
+  .login_right,
+  .signup_left {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .login_right .btn-login,
+  .signup_left .btn-login {
+    display: block;
+  }
+  .login_row {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

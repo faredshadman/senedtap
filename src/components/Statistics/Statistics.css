@@ -1,0 +1,39 @@
+.stats_container {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(4, 20%);
+  place-items: center;
+}
+.stats_item {
+  padding: 20px;
+  display: flex;
+  text-align: center;
+  flex-basis: 25%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.stats_icon {
+  color: #034efe;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.stats_count {
+  color: #001c5b;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 0.75rem;
+}
+.stats_title {
+  color: #6f7ea1;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+@media screen and (max-width: 768px) {
+  .stats_container {
+    grid-template-columns: repeat(2, 50%);
+  }
+}

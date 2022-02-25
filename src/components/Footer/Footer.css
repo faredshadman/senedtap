@@ -1,0 +1,120 @@
+.footer-container {
+  background-color: #001c5b;
+  position: relative;
+  z-index: 10;
+}
+.footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-row .footer-col.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+.footer-col.sub {
+  text-align: right;
+}
+.footer-sub-heading {
+  margin-bottom: 1rem;
+}
+.footer-col .section_input {
+  width: 350px;
+  padding: 12px 20px;
+  border: none;
+  outline: none;
+  border-radius: 14px;
+  margin-right: 1rem;
+}
+.footer-col.sub h1 {
+  width: 30ch;
+  color: #fff;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+}
+.footer-list-item {
+  margin-bottom: 1.5rem;
+  list-style: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  transition: all 0.1s ease-in;
+}
+.footer-list-item:hover .footer-links {
+  font-weight: 600;
+  transition: all 0.1s ease-in;
+  opacity: 1;
+}
+.footer-list-item:hover .span-hover {
+  border-bottom: 2px solid #fff;
+}
+.footer-links {
+  opacity: 0.7;
+  color: #fff;
+  text-decoration: none;
+}
+.social-media {
+  color: #fff;
+  font-size: 14px;
+  line-height: 21px;
+}
+.social-media-wrapper {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.social-media-wrapper svg {
+  margin-right: 1.25rem;
+  font-size: 1.15rem;
+}
+.social-media-wrapper svg:hover {
+  transform: scale(1.2);
+  color: #034efe;
+}
+hr {
+  width: 113.6%;
+  opacity: 0.7;
+  margin-left: -7%;
+}
+.website-rights {
+  padding: 2rem 0 1rem 0;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff;
+}
+.footer-svg {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+}
+.btn-primary {
+  padding: 12px 20px;
+  border-radius: 14px;
+  background-color: #034efe;
+  z-index: 10;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+@media screen and (max-width: 920px) {
+  .footer-row {
+    flex-direction: column;
+    align-items: inherit;
+  }
+  .footer-col.flex {
+    align-items: flex-start !important;
+    flex-direction: column;
+  }
+  .footer-col.sub h1 {
+    width: 100%;
+    text-align: left;
+    font-size: 22px;
+  }
+  .footer-col .section_input {
+    width: 200px;
+    margin-bottom: 2rem;
+  }
+}
